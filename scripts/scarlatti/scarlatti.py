@@ -1,8 +1,9 @@
 """
 A simple app to manage todos for our new home
 """
-from openpyxl import Workbook, load_workbook
 import os
+from openpyxl import Workbook, load_workbook
+
 
 
 class Room():
@@ -16,21 +17,22 @@ def file_creation():
     returns a workbook
     """
     inp = ''
-    while inp != 'Yes' or inp != 'No':
-        inp = input('Would you like to start a new project? (Yes/No)')
+    while inp not in ['Yes', 'No']:
+        inp = input('Would you like to start a new project? (Yes/No)? ')
         if inp == 'Yes':
-            path = input('What do you want you filename to be? ')
+            path = str(input('What do you want you filename to be? '))
+            path += '.xlsx'
             workbook = Workbook()
-            workbook.save(filename=path+'.xlsx')
+            workbook.save(filename=path)
 
         elif inp == 'No':
             files = os.listdir(path='.')
             for n in range(len(files)):
                 print(str(n) + ' ' + files[n])
             num = int(input(
-                        'Please choose the file you would like to work with'))
+                'Please choose the file you would like to work with'))
             path = files[num]
-            workbook = load_workbook(filename=files[path])
+    print(path)
     return path
 
 
@@ -41,7 +43,7 @@ def create_rooms(path):
     """
     rooms = []
     answer = ''
-
+    workbook = load_workbook(filename=path)
     while answer != 'Done':
         answer = input('Write the name of a room (or "Done" when done): ')
         if answer != 'Done':
@@ -52,5 +54,8 @@ def create_rooms(path):
 
     rooms_dic = {room: Room(room) for room in rooms}
 
-    workbook.save(filename=path+'.xlsx')
+    workbook.save(filename=path)
     return rooms_dic
+
+a = file_creation()
+create_rooms(a)
