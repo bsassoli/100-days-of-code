@@ -20,8 +20,8 @@
 - MITx 6.00
   - Finished PSSET 2 in MITx 6.00x (bisection search)
   - Finished FEX2 (again, bisection and recursion)
-  - Started PSET 3
-- Started _Basic CSS_ in _Responsive web design_ certification on www.freecodecamp.org. Currently **@ 35%**.
+  - Finished PSET 3
+- Started _Basic CSS_ in _Responsive web design_ certification on www.freecodecamp.org. Currently **@ 50%**.
 
 **Thoughts:**
 - Recursion always bogs me...
