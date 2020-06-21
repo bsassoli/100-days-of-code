@@ -17,9 +17,17 @@
 
 
 **Today's Progress**:
-- Finished PSSET 2 in MITx 6.00x (bisection search)
-- Finished FEX2 (again, bisection and recursion)
+- MITx 6.00
+  - Finished PSSET 2 in MITx 6.00x (bisection search)
+  - Finished FEX2 (again, bisection and recursion)
+  - Started PSET 3
+- Started _Basic CSS_ in _Responsive web design_ certification on www.freecodecamp.org. Currently **@ 35%**.
 
-**Thoughts:** Recursion always bogs me...
+**Thoughts:**
+- Recursion always bogs me...
+- SO PROUD OF [THIS](/scripts/MITx%206.00x%20Intro%20To%20CS/W3/ps3_hangman.py) ONE LINER! :smile::fire::fire::clap:
 
-**Link to work:** [Bisection](scripts/MITx%206.00x%20Intro%20to%20CS/W2)
+
+**Link to work:**
+[Bisection](scripts/MITx%206.00x%20Intro%20to%20CS/W2)
+[Hangman](/scripts/MITx%206.00x%20Intro%20To%20CS/W3/ps3_hangman.py)
