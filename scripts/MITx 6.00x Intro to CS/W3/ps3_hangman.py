@@ -97,18 +97,18 @@ def getAvailableLetters(lettersGuessed):
     return ''.join([x for x in string.ascii_lowercase if x not in lettersGuessed])
 
 def hangman(secretWord):
-    
+
     guesses = 8
     lettersGuessed = []
     print('Welcome to the game Hangman')
     print('I am thinking of a word that is {} letters long.'.format(len(secretWord)))
-    
+
     while guesses > 0 or isWordGuessed(secretWord, lettersGuessed) == False:
         print('-----------')
         print('You have {} guesses left.'.format(guesses))
         print('Available letters: {}'.format(getAvailableLetters(lettersGuessed)))
         guess = str(input('Please guess a letter: ')).lower()
-        if guess in lettersGuessed:    
+        if guess in lettersGuessed:
             print("Oops! You've already guessed that letter: " + getGuessedWord(secretWord, lettersGuessed))
         else:
             if guess in secretWord:
@@ -127,8 +127,8 @@ def hangman(secretWord):
                     print('Sorry, you ran out of guesses. The word was {}.'.format(secretWord))
                     break
 
-                
-                    
+
+
 # When you've completed your hangman function, uncomment these two lines
 # and run this file to test! (hint: you might want to pick your own
 # secretWord while you're testing)

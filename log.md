@@ -31,3 +31,20 @@
 **Link to work:**
 [Bisection](scripts/MITx%206.00x%20Intro%20to%20CS/W2)
 [Hangman](/scripts/MITx%206.00x%20Intro%20To%20CS/W3/ps3_hangman.py)
+
+### Day 1: June 21, 2020
+
+
+**Today's Progress**:
+- MITx 6.00.1: Finished FEX3 (dictionaries)
+- Finished _Basic CSS_ in _Responsive web design_ certification on www.freecodecamp.org. Started _Applied Visual Design_ and currently **@35%**.
+
+**Thoughts:**
+- I really need to setup a text editor/IDE that I like for good!
+- Need to start learning (and working!) with **virtual environments**.
+
+
+
+**Link to work:**
+[Bisection](scripts/MITx%206.00x%20Intro%20to%20CS/W2)
+[Hangman](/scripts/MITx%206.00x%20Intro%20To%20CS/W3/ps3_hangman.py)
