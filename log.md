@@ -32,7 +32,7 @@
 [Bisection](scripts/MITx%206.00x%20Intro%20to%20CS/W2)
 [Hangman](/scripts/MITx%206.00x%20Intro%20To%20CS/W3/ps3_hangman.py)
 
-### Day 1: June 21, 2020
+### Day 2: June 21, 2020
 
 
 **Today's Progress**:
@@ -48,3 +48,16 @@
 **Link to work:**
 [Bisection](scripts/MITx%206.00x%20Intro%20to%20CS/W2)
 [Hangman](/scripts/MITx%206.00x%20Intro%20To%20CS/W3/ps3_hangman.py)
+
+### Day 3: June 22, 2020
+
+
+**Today's Progress**: Lagging behind....
+
+
+### Day 4: June 23, 2020
+
+
+**Today's Progress**: Another day of lagging behind. Worked a little on `scarlatti`
+
+**Thoughts:** I wonder whether it makes any sense to do the `scarlatti` thing with Tkinter. And I should start learning to use Flask and Django. It's probable that my choice of XL is a bad idea. Nice idea of <u> using dictionaries to call functions based on user input </u>.
