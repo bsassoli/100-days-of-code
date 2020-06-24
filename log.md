@@ -61,3 +61,16 @@
 **Today's Progress**: Another day of lagging behind. Worked a little on `scarlatti`
 
 **Thoughts:** I wonder whether it makes any sense to do the `scarlatti` thing with Tkinter. And I should start learning to use Flask and Django. It's probable that my choice of XL is a bad idea. Nice idea of <u> using dictionaries to call functions based on user input </u>.
+
+
+### Day 5: June 24, 2020
+
+
+**Today's Progress**:
+- Spent a lot of time in _Complete Python Web Course: Build 8 Python Web Apps_. Developed a few apps. Git started with pycharm and vens.
+
+**Thoughts:**
+- Get back out from tutorial purgatory.
+
+**Link to work:**
+[Course Repository](https://www.github.com/bsassoli/App_development)
