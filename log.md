@@ -74,3 +74,12 @@
 
 **Link to work:**
 [Course Repository](https://www.github.com/bsassoli/App_development)
+
+### Day 6: June 25, 2020
+
+
+**Today's Progress**:
+- Just progessing with MongoDB.
+
+**Thoughts:**
+- Another suboptimal day
