@@ -98,9 +98,12 @@
 - Finished _Applied Visual Design_ in _Responsive web design_ certification on www.freecodecamp.org.
 - Finished _Applied Accessibility_.
 - Finished _Responsive Web Design_.
-- Starting _CSS Flexbox_. 
+- Starting _CSS Flexbox_.
+- Finished W2 in ML in Coursera.
 
-**Thoughts:**
+**Thoughts:** Unexcited today.
 
 
-**Link to work:** [CSS stuff](scripts/xSteph.html)
+**Link to work:**
+- [CSS stuff](scripts/xSteph.html)
+- [W2 Programming assignment](https://github.com/bsassoli/ml-coursera-python-assignments/tree/master/Exercise1)
