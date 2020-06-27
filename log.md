@@ -83,3 +83,24 @@
 
 **Thoughts:**
 - Another suboptimal day
+
+
+### Day 7: June 26, 2020
+
+
+**Today's Progress**: did not feel well. Took  a break.
+
+
+### Day 8: June 27, 2020
+
+
+**Today's Progress**:
+- Finished _Applied Visual Design_ in _Responsive web design_ certification on www.freecodecamp.org.
+- Finished _Applied Accessibility_.
+- Finished _Responsive Web Design_.
+- Starting _CSS Flexbox_. 
+
+**Thoughts:**
+
+
+**Link to work:** [CSS stuff](scripts/xSteph.html)
