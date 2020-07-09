@@ -79,7 +79,7 @@
 
 
 **Today's Progress**:
-- Just progessing with MongoDB.
+- Just progressing with MongoDB.
 
 **Thoughts:**
 - Another suboptimal day
