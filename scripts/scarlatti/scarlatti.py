@@ -62,7 +62,7 @@ def choose_action():
     print('View a room: 4')
     print('View an action: 5')
     user_choice=int(input('Please choose an option:'))
-    choice_dict = {1: 'add_room', 2: 'add_action', 3 : 'modify_action', 
+    choice_dict = {1: 'add_room', 2: 'add_action', 3 : 'modify_action',
                    4: 'view_room', 5: 'view_action'}
     return choice_dict[user_choice]
 
@@ -97,3 +97,5 @@ def create_rooms(path):
 
 
 choose_action()
+
+x
