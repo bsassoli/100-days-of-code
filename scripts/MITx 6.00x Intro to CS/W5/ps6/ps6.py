@@ -55,6 +55,7 @@ def get_story_string():
 
 WORDLIST_FILENAME = 'words.txt'
 
+
 class Message(object):
     ### DO NOT MODIFY THIS METHOD ###
     def __init__(self, text):
@@ -89,20 +90,65 @@ class Message(object):
         return self.valid_words[:]
 
     def build_shift_dict(self, shift):
-         
+
         ignore = [x for x in string.digits]
         ignore.extend([x for x in string.punctuation])
         ignore.append(' ')
         shift_dic = {}
+        alphabet= string.ascii_uppercase + string.ascii_lowercase
+
+        for letter in alphabet:
+            if letter in string.ascii_lowercase:
+                    position = string.ascii_lowercase.find(letter)
+                    shift_dic[letter] = string.ascii_lowercase[(position +
+                                                               shift) % (len(string.ascii_lowercase))]
+            elif letter in string.ascii_uppercase:
+                        position = string.ascii_uppercase.find(letter)
+                        shift_dic[letter] = string.ascii_uppercase[(position +
+                                                                   shift) % (len(string.ascii_uppercase))]
+            
+        
         return shift_dic
 
+        '''
+        Creates a dictionary that can be used to apply a cipher to a letter.
+        The dictionary maps every uppercase and lowercase letter to a
+        character shifted down the alphabet by the input shift. The dictionary
+        should have 52 keys of all the uppercase letters and all the lowercase
+        letters only.
+
+        shift (integer): the amount by which to shift every letter of the
+        alphabet. 0 <= shift < 26
+
+        Returns: a dictionary mapping a letter (string) to
+                 another letter (string).
+        '''
 
     def apply_shift(self, shift):
-        #list = ''.join([build_shift_dict(shift)[letter] for letter in self.get_message_text()])
+        '''
+        Applies the Caesar Cipher to self.message_text with the input shift.
+        Creates a new string that is self.message_text shifted down the
+        alphabet by some number of characters determined by the input shift
 
+        shift (integer): the shift with which to encrypt the message.
+        0 <= shift < 26
 
-        pass
+        Returns: the message text (string) in which every character is shifted
+             down the alphabet by the input shift
+        '''
+        ignore = [x for x in string.digits]
+        ignore.extend([x for x in string.punctuation])
+        ignore.append(' ')
+        text = self.message_text
+        shift_dict = self.build_shift_dict(shift) 
 
+        for letter in text:
+            if letter in ignore:
+                shift_dict[letter] = letter
+        list = ''.join([shift_dict[letter]
+                        for letter in text])
+
+        return list
 class PlaintextMessage(Message):
     def __init__(self, text, shift):
         '''
