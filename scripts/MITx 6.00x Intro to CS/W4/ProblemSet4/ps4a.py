@@ -119,11 +119,11 @@ def dealHand(n):
     n: int >= 0
     returns: dictionary (string -> int)
     """
-    hand={}
+    hand = {}
     numVowels = n // 3
 
     for i in range(numVowels):
-        x = VOWELS[random.randrange(0,len(VOWELS))]
+        x = VOWELS[random.randrange(0, len(VOWELS))]
         hand[x] = hand.get(x, 0) + 1
 
     for i in range(numVowels, n):
@@ -153,7 +153,7 @@ def updateHand(hand, word):
     """
     updated = hand.copy()
     for letter in word:
-        updated[letter] -=1
+        updated[letter] -= 1
     return updated
 
 
@@ -228,7 +228,7 @@ def playHand(hand, wordList, n):
         # Display the hand
         displayHand(hand)
         # Ask user for input
-        user_inp = input("Please enter a word or a period to end the game: ")
+        user_inp = input('Please enter a word or a period to end the game: ')
         while True:
             # If the input is a single period:
             if user_inp == '.':

@@ -58,7 +58,7 @@ def isWordGuessed(secretWord, lettersGuessed):
     returns: boolean, True if all the letters of secretWord are in lettersGuessed;
       False otherwise
     '''
-    return sum([x in lettersGuessed for x in secretWord])==len(secretWord)
+    return sum([x in lettersGuessed for x in secretWord]) == len(secretWord)
 
 
 def getGuessedWord(secretWord, lettersGuessed):
@@ -136,4 +136,3 @@ def hangman(secretWord):
 secretWord = chooseWord(wordlist).lower()
 hangman('pollo')
 prova
-
